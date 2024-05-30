@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: 'Mantinia'; 
+    src: url('Mantinia.ttf') format('truetype'); 
+}
+
+
+
+
+
+body {
+    font-family: Mantinia, sans-serif; 
+    background-image: url("https://images8.alphacoders.com/118/1186452.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h3, p{
+    color: #EFE9F4;
+    text-align: left;
+    font-family: Mantinia;
+}
+
+.sec{
+    text-shadow: 0px 0px 15px  #1a1a1a ;
+ 
+}
+
+
+@media (max-width: 768px) {
+        body{
+            font-size: 14px;
+        }
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px){
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 0px
+}
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(90, 255, 134);
+}
+
+
+nav ul li a:hover {
+    color: gold; 
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: gold; 
+}
+
+ul {
+    list-style-type: disc; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+.imag1{
+  max-width: 100%;
+  height: auto;
+}
+a{
+   text-decoration: none;
+    color: rgb(90, 255, 134);
+}
+a:hover {
+    color: gold; 
+}
+
+ .container{
+    text-align: center;
+    margin-top: 50px;
+}
+    
+.hidden{
+    display: none;
+    }
+
+
+.img2{
+    width: 50%;
+  height: auto;
+}
+.mr{
+
+    width: 50%;
+  height: auto;
+}
+#arrow{
+    font-size: 30px;
+    cursor: pointer;
+    color: gold;
+}
+
+.mr2{
+
+    width: 50%;
+  height: auto;
+}
+.npc{
+  color: rgb(0,255,106);
+}
+mark{
+    background-color: #1a1a1a00;
+    color: gold;
+}
+
+.f{
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
